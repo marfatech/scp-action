@@ -71,7 +71,7 @@ inputs:
     default: false
 runs:
   using: 'docker'
-  image: 'Dockerfile'
+  image: 'docker://ghcr.io/marfatech/scp-action:v0.1.5'
 
 branding:
   icon: 'copy'
